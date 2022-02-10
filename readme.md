@@ -18,7 +18,7 @@ This simple website list campaign
 
 ### How to run :
 
-- git clone https://github.com/edwinsatya/test-campaign.git
+- git clone https://github.com/edwinsatya/test-kb.git
 - npm install
 - npm run start
 
