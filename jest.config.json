@@ -1,0 +1,12 @@
+{
+  "collectCoverage": true,
+  "moduleFileExtensions": ["js", "mjs"],
+  "transform": {
+    "^.+\\.js$": "babel-jest",
+    "^.+\\.mjs$": "babel-jest"
+  },
+  "testMatch": [
+    "<rootDir>/src/**/*.(test).{js,jsx,ts,tsx}",
+    "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+  ]
+}

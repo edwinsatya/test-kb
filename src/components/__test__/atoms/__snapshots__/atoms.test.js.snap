@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageWrapper Component Should render with Image from dataProps 1`] = `
+<div
+  className="undefined w-full"
+>
+  <img
+    alt="Tribute to Seventeen"
+    className="w-full h-20 md:h-48 xl:h-96"
+    src="https://kitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com/_production/campaign/97347/31_97347_1545999748_841841_f.png"
+  />
+</div>
+`;
+
+exports[`ImageWrapper Component Should render with no Image 1`] = `
+<div
+  className="undefined w-full"
+>
+  <img
+    alt="no-image"
+    className="w-full h-20 md:h-48 xl:h-96"
+    src="https://www.poltekkes-solo.ac.id/cni-content/themes/poltekkes/images/noimage.jpg"
+  />
+</div>
+`;
+
+exports[`InputSelect Component Should render normally 1`] = `
+<div>
+  <select
+    className="border h-6 text-xs px-1 md:h-8 md:text-base md:px-3 xl:h-10 xl:text-lg xl:px-5 border-gray-200 bg-gray-200 text-gray-700 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+    defaultValue="goal"
+    onChange={[Function]}
+  >
+    <option
+      value="goal"
+    >
+      Sorting by Donation Goal
+    </option>
+    <option
+      value="day"
+    >
+      Sorting by Days Remaining
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Logo Component Should render normally 1`] = `
+<div
+  className="undefined rounded-full"
+>
+  <img
+    alt="logo"
+    className="w-full"
+    src="https://assets.kitabisa.cc/images/logos/logogram__ktbs_white.png"
+  />
+</div>
+`;
+
+exports[`ProgressBar Component Should render normally with dataProps 1`] = `
+<div
+  className="bg-gray-200 h-[4px] md:h-2 xl:h-3 w-full mb-1 xl:mb-2 rounded-md overflow-hidden"
+>
+  <div
+    className="bg-gray-200 h-[4px] md:h-2 xl:h-3"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgressBar Component Should render normally with no dataProps 1`] = `
+<div
+  className="bg-gray-200 h-[4px] md:h-2 xl:h-3 w-full mb-1 xl:mb-2 rounded-md overflow-hidden"
+>
+  <div
+    className="bg-gray-200 h-[4px] md:h-2 xl:h-3"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Title Component Should render normally with no titleProps 1`] = `<div />`;
+
+exports[`Title Component Should render normally with titleProps 1`] = `
+<div>
+  Terkumpul
+</div>
+`;
